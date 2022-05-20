@@ -1,0 +1,62 @@
+.destination-item {
+  list-style-type: none;
+  width: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.delete-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.browser-title {
+  font-family: 'Roboto';
+  margin-right: 10px;
+}
+
+.browser-time {
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 500;
+}
+
+.browser-start {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.browser-end {
+  align-self: center;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.destination-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  margin-left: 65px;
+}
+
+.browser-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  color: #64748b;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 16px;
+  }
+}

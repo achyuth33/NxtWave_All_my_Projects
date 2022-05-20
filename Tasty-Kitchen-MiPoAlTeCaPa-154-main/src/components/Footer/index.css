@@ -1,0 +1,79 @@
+.footer-container {
+  width: 1440px;
+  height: 400px;
+  background: #0f172a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.font-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+.logi {
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.kitchen-name {
+  height: 48px;
+  font-family: DM Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height, or 150% */
+  color: #ffffff;
+}
+.footer-para {
+  width: 479px;
+  height: 32px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  /* identical to box height, or 133% */
+}
+.pinterest {
+  height: 60px;
+  width: 60px;
+  padding: 8px;
+  color: white;
+  margin-right: 40px;
+  border-radius: 6px;
+}
+.insta {
+  height: 50px;
+  font-family: Font Awesome 5 Brands;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 43.8592px;
+  line-height: 50px;
+  margin-right: 40px;
+  color: #ffffff;
+}
+.twitter {
+  color: #ffffff;
+  /* Light / base / white */
+  box-sizing: border-box;
+  height: 40px;
+  width: 45.022830963134766px;
+  margin-right: 40px;
+}
+.facebook {
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  background-color: transparent;
+  margin-right: 40px;
+  color: white;
+}

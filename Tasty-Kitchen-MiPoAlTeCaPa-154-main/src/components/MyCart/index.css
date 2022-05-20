@@ -1,0 +1,220 @@
+.cart-container {
+  margin-top: 48px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.cart-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item-cart-title {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  letter-spacing: 0.2px;
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+}
+.quantity {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  letter-spacing: 0.2px;
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+}
+.price-name {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  text-align: right;
+  letter-spacing: 0.2px;
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+}
+.show-cart-container {
+  background-color: #f9fbfe;
+  /* Main/Hover Light */
+  margin: 48px;
+  border: 1px solid rgba(11, 105, 255, 0.1);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+}
+.items-unorder-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.cart-line {
+  border: 1px dashed #cbd2d9;
+  width: 90%;
+}
+.order-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #3e4c59;
+}
+.order-summary {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+.place-order-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 150px;
+}
+.final-amount {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  text-align: right;
+
+  /* Basic / 900 */
+
+  color: #3e4c59;
+}
+.place-order-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 16px;
+
+  background: #f7931e;
+  border-radius: 8px;
+  border-width: 0px;
+
+  /* Inside Auto Layout */
+}
+.success-page {
+  height: 376px;
+  width: 546px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 4.00734px 40.0734px rgba(23, 31, 70, 0.16);
+  border-radius: 12px;
+  margin-top: 30px;
+}
+.greet {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+
+  color: #64748b;
+}
+.payment-name {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 800 */
+
+  color: #1e293b;
+}
+.home-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 16px;
+  border-width: 0px;
+
+  background: #f7931e;
+  border-radius: 8px;
+
+  /* Inside Auto Layout */
+}
+.no-order {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 800 */
+
+  color: #1e293b;
+}
+.cart-empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cart-suggest {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 500 */
+
+  color: #64748b;
+}
+.order-now-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 16px;
+  border-width: 0px;
+  background: #f7931e;
+  border-radius: 8px;
+
+  /* Inside Auto Layout */
+}
+.no-order-img {
+  height: 267px;
+  width: 325px;
+}

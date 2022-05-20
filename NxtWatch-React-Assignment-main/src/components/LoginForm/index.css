@@ -1,0 +1,73 @@
+.loginDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+.checkInput {
+  height: 18px;
+  width: 18px;
+  margin-right: 10px;
+}
+.label {
+  color: #000000;
+  font-weight: bold;
+}
+.inputDiv2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #000000;
+  font-weight: bold;
+}
+.loginSubDiv {
+  background-color: #ffffff;
+  height: 55vh;
+  box-shadow: 10px 10px 10px 10px grey;
+  width: 30vw;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img1 {
+  margin-bottom: 30px;
+  width: 170px;
+}
+label {
+  color: white;
+  font-size: 15px;
+}
+input {
+  background-color: transparent;
+  margin-top: 5px;
+  border-width: 1px;
+  border-color: #000000;
+  height: 35px;
+  width: 250px;
+  padding: 8px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+.inputDiv {
+  margin-bottom: 15px;
+}
+.button112 {
+  width: 100%;
+  height: 36px;
+  padding: 8px;
+  background-color: blue;
+  color: #ffffff;
+  border-width: 0px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: Roboto;
+  margin-top: 10px;
+}
+.error {
+  color: red;
+  font-family: monospace;
+  font-size: 13px;
+}

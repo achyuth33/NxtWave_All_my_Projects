@@ -1,0 +1,58 @@
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/spotify-remix-login-bg.png');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+}
+
+@media screen and (min-width: 992px) {
+  .login-form-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.login-website-logo-desktop-image {
+  width: 185px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #181818;
+  border-radius: 8px;
+  width: 95%;
+  max-width: 350px;
+  padding: 64px 48px 64px 48px;
+}
+
+@media screen and (min-width: 992px) {
+  .form-container {
+    width: 350px;
+    flex-shrink: 0;
+    box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+  }
+}
+
+.login-button {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  height: 40px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #1db954;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.popular-blog-container {
+    background-color: #95b2ff;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.popular-blog-heading {
+    color: #12022f;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.popular-blog-heading-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.image {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-marketing-strategies-sm-bg.png");
+    background-size: cover;
+}
+
+.mk-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 20px;
+    padding: 20px;
+}
+
+.button {
+    background-color: transparent;
+    color: #ffffff;
+    margin: 20px;
+}
+
+.marketing-stratagies {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.image2 {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-coffee-bg.png");
+    background-size: cover;
+}
+
+.coffe-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 20px;
+    padding: 20px;
+}
+
+.coffee-container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.image3 {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-fruits-bg.png");
+    background-size: cover;
+
+}
+
+.fruits-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 20px;
+    padding: 20px;
+}
+
+.fruits-container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.image4 {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-laptop-sm-bg.png");
+    background-size: cover;
+}
+
+.laptop-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 20px;
+    padding: 20px;
+}
+
+.laptop-container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.image5 {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-nature-bg.png");
+    background-size: cover;
+}
+
+.nature-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 20px;
+    padding: 20px;
+}
+
+.nature-container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.image6 {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-interior-bg.png");
+    background-size: cover;
+}
+
+.interior-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 20px;
+    padding: 20px;
+}
+
+.interior-container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+
+@media (min-width: 768px) {
+    .image {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-marketing-strategies-lg-bg.png");
+        background-size: cover;
+    }
+
+    .image4 {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-laptop-lg-bg.png");
+        background-size: cover;
+    }
+}
+
+@media (max-width: 768px) {
+    .image {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-marketing-strategies-sm-bg.png");
+        background-size: cover;
+    }
+
+    .image4 {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-laptop-sm-bg.png");
+        background-size: cover;
+    }
+}
+
+@media (max-width: 992px) {
+    .popular-blog-heading {
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .popular-blog-heading {
+        text-align: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .popular-blog-container {
+        order: 1;
+    }
+}

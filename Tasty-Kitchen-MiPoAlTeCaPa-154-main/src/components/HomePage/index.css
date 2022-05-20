@@ -1,0 +1,100 @@
+.popular-restaurant-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 64px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.popular-name {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px; /* identical to box height, or 150% */
+  margin-bottom: 0px;
+  color: #183b56;
+}
+.para-sort-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  top: 8px;
+}
+.para {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #64748b;
+  margin-right: 483px;
+}
+.sort-cont {
+  display: flex;
+  justify-content: center;
+}
+.sort-icon {
+  margin-right: 12px;
+  color: #475569;
+  height: 24px;
+  width: 24px;
+}
+.select-sort {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Light / blue-gray / 600 */
+  color: #475569;
+}
+.line {
+  border: 1px solid #cbd2d9;
+  width: 100%;
+}
+.list-container {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 70px;
+}
+.products-loader-container {
+  align-self: center;
+  text-align: center;
+}
+.bottom-page-list {
+}
+.page-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrow {
+  height: 30px;
+  width: 30px;
+  border: 1px solid #334155;
+  box-sizing: border-box;
+  color: #334155;
+  outline: none;
+  background-color: transparent;
+}
+.page-numbers {
+  font-family: Bree Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  /* Light / blue-gray / 700 */
+  margin: 10px;
+
+  color: #334155;
+}

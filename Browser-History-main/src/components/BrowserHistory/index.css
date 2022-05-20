@@ -1,0 +1,127 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.app-logo {
+  width: 97px;
+  height: 26px;
+  display: flex;
+  align-self: center;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.destinations-search-container {
+  width: 100%;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .destinations-search-container {
+    align-items: flex-start;
+  }
+}
+
+.heading {
+  text-align: center;
+  color: #252627;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 48px;
+  margin-left: 15px;
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    margin-top: 96px;
+  }
+}
+
+.search-container {
+  display: flex;
+  align-self: center;
+  margin: auto;
+}
+
+.search-input-container {
+  display: flex;
+  background-color: #3367d6;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+}
+
+.search-input {
+  color: #f8fafc;
+  background-color: #2850a7;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  width: 100%;
+  outline: none;
+  border: 1px solid #6697ff;
+  border-left: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-left: 10px;
+}
+
+.search-icon-color {
+  background-color: #2850a7;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #6697ff;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.search-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.empty-history {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto';
+  width: 100%;
+  min-height: 400px;
+  color: #64748b;
+  font-size: 22px;
+}
+
+.destinations-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0.2, 0.2);
+}
+
+@media screen and (min-width: 768px) {
+  .destinations-list {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .search-input {
+    width: 400px;
+  }
+}

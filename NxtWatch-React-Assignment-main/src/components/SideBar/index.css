@@ -1,0 +1,41 @@
+.sideBarMainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 15vw;
+  height: 82vh;
+  background-color: white;
+}
+.iconsDiv {
+  display: flex;
+  text-decoration: none;
+  flex-direction: row;
+  align-items: center;
+  color: #424242;
+  font-size: 20px;
+  margin: 0px;
+}
+.icons {
+  color: #424242;
+  margin: 0px;
+  margin-right: 6px;
+}
+.p2 {
+  margin: 8px;
+}
+.h4 {
+  font-size: 27px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+.socialMediaDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.img7 {
+  width: 40px;
+  cursor: pointer;
+}

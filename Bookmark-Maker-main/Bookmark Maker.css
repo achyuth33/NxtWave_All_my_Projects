@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+    background-color: #2d3a8c;
+}
+
+.top-heading {
+    font-family: "Roboto";
+    color: white;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.name-heading {
+    color: white;
+    font-size: 20px;
+    padding-top: 0px;
+}
+
+.bottom-card {
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.bottom-heading {
+    font-size: 20px;
+    color: #323f4b;
+    margin-top: 25px;
+    padding-top: 22px;
+    text-align: center;
+}
+
+.bg-form {
+    background-color: #f5f7fa;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cbd2d9;
+}
+
+.label-names {
+    color: #7b8794;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.err-msg {
+    color: red;
+    font-size: 12px;
+}
+
+.submit-button {
+    background-color: #21396c;
+    color: white;
+    font-family: Roboto;
+    font-size: 15px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.content-alignment {
+    text-align: right;
+}
+
+.no-bullets {
+    list-style-type: none;
+}
+
+.list-heading-container {
+    background-color: #f5f7fa;
+    margin-left: -10px;
+    margin-right: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cbd2d9;
+    height: 60px;
+}
+
+.list-heading {
+    color: black;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-top: 8px;
+}
+
+.small-button-alignment {
+    margin-left: auto;
+}
+
+.anch-color {
+    color: white;
+}

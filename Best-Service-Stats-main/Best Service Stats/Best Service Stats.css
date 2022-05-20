@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.image {
+    width: 100%;
+    max-width: 400px;
+    align-self: flex-start;
+}
+
+.heading {
+    color: #12022f;
+    font-family: "Open Sans";
+    font-size: 28px;
+}
+
+.card-container {
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.description {
+    color: #594d6d;
+}
+
+.countries-heading {
+    color: #176fff;
+    font-family: "Open Sans";
+    font-weight: 900;
+}
+
+.hotels-heading {
+    color: #176fff;
+    font-family: "Open Sans";
+    font-weight: 900;
+}
+
+.rooms-heading {
+    color: #176fff;
+    font-family: "Open Sans";
+    font-weight: 900;
+}
+
+.employees-heading {
+    color: #176fff;
+    font-family: "Open Sans";
+    font-weight: 900;
+}
+
+.country {
+    font-family: "Open Sans";
+    font-size: 20px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+
+.hotel {
+    font-family: "Open Sans";
+    font-size: 20px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+
+.room {
+    font-family: "Open Sans";
+    font-size: 20px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+
+.employee {
+    font-family: "Open Sans";
+    font-size: 20px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+
+.services-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    margin-left: 20px;
+
+}
+
+.countries {
+    padding-left: 20px;
+    margin-right: 20px;
+
+}
+
+.hotels {
+    padding-left: 20px;
+    margin-right: 8px;
+}
+
+.rooms {
+    padding-left: 20px;
+    margin-left: 15px;
+}
+
+.employees {
+    padding-left: 20px;
+    margin-left: 15px;
+}
+
+.image1 {
+    width: 90%;
+    max-width: 300px;
+    align-self: flex-start;
+}
+
+@media screen and (min-width: 992px) {
+    .image {
+        width: 50%;
+        max-width: 400px;
+        align-self: auto;
+    }
+}
+
+@media not screen and (min-width: 992px) {
+    .best-service-container {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/house-lg-bg.png");
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .heading {
+        font-size: 15px;
+    }
+}

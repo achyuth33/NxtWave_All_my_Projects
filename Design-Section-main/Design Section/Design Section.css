@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.image {
+    width: 100vw;
+}
+
+.image2 {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/design-section-bulb-img.png");
+    height: 100px;
+    background-size: cover;
+}
+
+.design-heading-section {
+    background-color: #12022f;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 500;
+    padding: 30px;
+}
+
+.design-elements {
+    background-color: #ffffff;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.image3 {
+    padding: 20px;
+}
+
+.design-heading {
+    color: #12022f;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.description {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.element-heading {
+    color: #12022f;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.description1 {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.support-heading {
+    color: #12022f;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.description2 {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .image {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/design-section-sm-bg.png");
+        background-size: cover;
+        width: 100vw;
+    }
+}
+
+@media (min-width: 768px) {
+    .image {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/design-section-lg-bg.png");
+        background-size: cover;
+        width: 100vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .heading {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .heading {
+        font-size: 15px;
+    }
+}

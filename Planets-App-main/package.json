@@ -1,0 +1,72 @@
+{
+  "name": "planets",
+  "private": true,
+  "version": "1.0.0",
+  "engines": {
+    "node": "^10.13 || 12 || 14 || 15",
+    "npm": ">=6"
+  },
+  "dependencies": {
+    "@craco/craco": "6.1.1",
+    "@testing-library/jest-dom": "5.11.9",
+    "@testing-library/react": "11.2.5",
+    "@testing-library/user-event": "12.6.2",
+    "chalk": "4.1.0",
+    "jest-styled-components": "7.0.5",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-slick": "0.28.1",
+    "styled-components": "5.3.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "1.13.2",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-prettier": "3.3.1",
+    "husky": "4.3.8",
+    "lint-staged": "10.5.4",
+    "npm-run-all": "4.1.5",
+    "prettier": "2.2.1",
+    "react-scripts": "4.0.3"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix src/",
+    "format": "prettier --write \"./src\"",
+    "run-all": "npm-run-all --parallel test lint:fix"
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run lint:fix"
+    ],
+    "*.{js, jsx, json, html, css}": [
+      "npm run format"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ]
+  },
+  "browserslist": {
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      ">1%",
+      "last 4 versions",
+      "Firefox ESR",
+      "not ie < 11"
+    ]
+  }
+}

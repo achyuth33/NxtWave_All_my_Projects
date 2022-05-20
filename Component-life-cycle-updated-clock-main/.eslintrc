@@ -1,0 +1,35 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "parser": "babel-eslint",
+  "extends": ["react-app", "airbnb", "prettier"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "react/jsx-filename-extension": [1, {"extensions": [".js", ".jsx"]}],
+    "react/state-in-constructor": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-uses-react": "off",
+    "no-console": "off",
+    "react/prop-types": "off",
+    "react/prefer-stateless-function": [
+      0,
+      {
+        "ignorePureComponents": true
+      }
+    ],
+    "no-unused-vars": "warn",
+    "jsx-a11y/alt-text": 1,
+    "react/no-unused-state": "warn",
+    "react/button-has-type": "warn"
+  }
+}

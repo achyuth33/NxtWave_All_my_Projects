@@ -1,0 +1,47 @@
+.select-filters {
+  display: flex;
+  width: 88%;
+  padding-bottom: 48px;
+  padding-top: 48px;
+}
+
+.select-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-name {
+  color: #7b8794;
+  font-size: 12px;
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+
+.select-item {
+  background-color: transparent;
+  border: 1px solid #cbd2d9;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border-radius: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 16px;
+  padding-right: 32px;
+  margin-right: 24px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 577px) {
+  .select-item {
+    margin-right: 48px;
+  }
+}
+
+.option {
+  color: #323f4b;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}

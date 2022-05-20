@@ -1,0 +1,121 @@
+.coin-toss-game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  min-height: 100vh;
+}
+
+.coin-toss-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+  padding: 24px;
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .coin-toss-container {
+    max-width: 500px;
+    padding: 64px;
+  }
+}
+
+.heading {
+  text-align: center;
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+}
+
+.description {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 24px;
+    margin-top: 16px;
+  }
+}
+
+.toss-result-img {
+  width: 150px;
+  height: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .toss-result-img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+.button {
+  background-color: #ffda6f;
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 16px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    margin-top: 32px;
+  }
+}
+
+.counts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .counts-container {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .counts-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+  }
+}
+
+.count {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 24px;
+  margin-right: 24px;
+}

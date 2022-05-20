@@ -1,0 +1,44 @@
+.cardDiv {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+}
+.link-item {
+  text-decoration: none;
+  margin-bottom: 48px;
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+.p3 {
+  color: #212121;
+  margin: 10px;
+  margin-left: 0px;
+}
+.img8 {
+  width: 100%;
+}
+.img9 {
+  width: 40px;
+  margin-right: 10px;
+  margin-top: 20px;
+  align-self: flex-start;
+}
+.cardDiv5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: 0px;
+}
+.cardDiv4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px;
+}
+.p4 {
+  margin-right: 10px;
+  color: #606060;
+  margin: 0px;
+}

@@ -1,0 +1,65 @@
+.res-items {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-left: 165px;
+}
+.res-item-image {
+  border-radius: 8px;
+  height: 150px;
+  width: 255px;
+}
+.res-item-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30px;
+  height: 122px;
+  width: 177px;
+  margin-bottom: 15px;
+}
+.item-name {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #334155;
+  margin-bottom: -10px;
+}
+.price {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: -10px;
+  /* identical to box height, or 150% */
+
+  /* Light / blue-gray / 700 */
+
+  color: #334155;
+}
+.item-rating-cont {
+  display: flex;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  display: flex;
+  align-items: center;
+  color: #0a1f44;
+}
+.add-btn {
+  height: 32px;
+  width: 58px;
+  padding: 5px;
+  border-radius: 8px;
+  border: solid 2px orange;
+  background-color: transparent;
+  color: orange;
+}

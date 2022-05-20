@@ -1,0 +1,75 @@
+.nav-bar {
+  height: 96px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #f8fafc;
+}
+.logo-link {
+  display: flex;
+  background-color: #f8fafc;
+  text-decoration: none;
+}
+
+.nav-kitchen-name {
+  height: 32px;
+  font-family: DM Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: #f7931e;
+  margin-left: 18px;
+}
+.menu-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+.home-link {
+  height: 26px;
+
+  /* Headline/05 */
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  text-decoration: none;
+  margin-left: 32px;
+  /* identical to box height, or 162% */
+
+  letter-spacing: -0.355556px;
+  color: #f7931e;
+}
+.cart-link {
+  height: 26px; /* Headline/05 */
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  letter-spacing: -0.355556px;
+  /* Light / blue-gray / 700 */
+  color: #334155;
+  margin-left: 32px;
+  text-decoration: none;
+}
+.menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 32px;
+}
+.logout-btn {
+  background: #f7931e;
+  border-radius: 8px;
+  color: #ffffff;
+  border-width: 1px;
+  width: 73px;
+  height: 32px;
+  margin-left: 32px;
+}

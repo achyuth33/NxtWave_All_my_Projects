@@ -1,0 +1,21 @@
+.not-found-route-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://res.cloudinary.com/lalitha/image/upload/v1619017373/ipl-dashboard-bg_c7z9em.png');
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.not-found-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-heading {
+    font-size: 64px;
+  }
+}

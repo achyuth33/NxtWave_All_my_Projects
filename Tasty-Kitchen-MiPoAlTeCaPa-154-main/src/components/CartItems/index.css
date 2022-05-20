@@ -1,0 +1,40 @@
+.list-cart {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin: 20px;
+}
+.cart-image {
+  height: 100px;
+  width: 136px;
+  border-radius: 8px;
+}
+.cart-name-img {
+  display: flex;
+  align-items: center;
+  width: 320px;
+  margin-right: 200px;
+}
+.cost-total {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  margin-left: 350px;
+  color: #ffa412;
+}
+.cart-item-name {
+  margin-left: 16px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  letter-spacing: 0.2px;
+
+  color: #183b56;
+}

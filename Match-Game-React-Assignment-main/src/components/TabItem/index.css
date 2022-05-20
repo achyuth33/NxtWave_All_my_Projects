@@ -1,0 +1,16 @@
+.tab-item {
+  padding: 10px;
+  background-color: transparent;
+}
+.tab-item-button {
+  color: #fff;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.active-tab {
+  color: #fec653;
+  border-bottom: 3px solid #fec653;
+}

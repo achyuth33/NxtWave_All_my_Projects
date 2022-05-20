@@ -1,0 +1,68 @@
+{
+  "test_case_results": [
+    {
+      "test_case_id": "RJSCPUPPE1_TEST_1",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCPUPPE1_TEST_2",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCPUPPE1_TEST_3",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCPUPPE1_TEST_4",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCPUPPE1_TEST_5",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCPUPPE1_TEST_6",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCPUPPE1_TEST_7",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCPUPPE1_TEST_8",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCPUPPE1_TEST_9",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCPUPPE1_TEST_10",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCPUPPE1_TEST_11",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCPUPPE1_TEST_12",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCPUPPE1_TEST_13",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCPUPPE1_TEST_14",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCPUPPE1_TEST_15",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCPUPPE1_TEST_16",
+      "evaluation_result": "CORRECT"
+    }
+  ]
+}

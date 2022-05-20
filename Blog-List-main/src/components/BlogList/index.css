@@ -1,0 +1,11 @@
+.blog-list-container {
+  width: 70%;
+  margin: auto;
+}
+
+@media (max-width: 1024px) {
+  .blog-list-container {
+    width: 95%;
+    margin: auto;
+  }
+}

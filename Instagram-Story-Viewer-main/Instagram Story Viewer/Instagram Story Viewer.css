@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    height: 60vh;
+    background-image: linear-gradient(#f54f5a, #f58529, #f64f59, #d267c4, #00ffff);
+}
+
+.heading-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.image {
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+}
+
+.heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 20px;
+    margin-left: 2px;
+    margin-bottom: 15px;
+}
+
+.image1 {
+    height: 20px;
+    width: 20px;
+    margin-top: 2px;
+    margin-left: 50px;
+}
+
+.banner-heading {
+    color: #ffffff;
+    font-family: "Lobster";
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.description {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.account-heading {
+    color: #0f172a;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.instagram-account-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.anonymous-heading {
+    color: #0f172a;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.anonymous-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.download-and-share-heading {
+    color: #0f172a;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.download-and-share-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.instagram-container {
+    height: 60vh;
+    width: 200vw;
+    background-image: linear-gradient(#f54f5a, #f58529, #f64f59, #d267c4, #00ffff);
+
+}
+
+.image3 {
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+}
+
+.page-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.image4 {
+    height: 20px;
+    width: 20px;
+}
+
+.services {
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.pricing {
+    color: #ffffff;
+    font-size: 20px;
+
+}
+
+.contacts {
+    color: #ffffff;
+    font-size: 20px;
+
+}
+
+.banner1-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner1-heading {
+    color: #ffffff;
+    font-family: "Lobster";
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.description1 {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.input {
+    background-color: #ffffff;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e7eb;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.button {
+    color: #ffffff;
+    background-color: #3b82f6;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e7eb;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.instagram-input-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.larger-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.account-heading1 {
+    color: #0f172a;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.anonymous-heading1 {
+    color: #0f172a;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.download-and-share-heading1 {
+    color: #0f172a;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.instagram-input-container1 {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (min-width: 567px) and (max-width: 768px) {
+    .bg-container {
+        height: 60vh;
+        background-image: linear-gradient(to right, #f54f5a, #f58529, #f64f59, #d267c4, #00ffff);
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-link {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .instagram-input-container1 {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .heading-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) {
+    .heading-container {
+        display: flex;
+        flex-direction: row;
+    }
+}

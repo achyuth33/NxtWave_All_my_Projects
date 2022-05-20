@@ -1,0 +1,57 @@
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f1f5f8;
+  height: 100vh;
+}
+
+.counter-heading {
+  text-align: center;
+  color: #2d3a35;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 800;
+}
+
+@media screen and (min-width: 768px) {
+  .counter-heading {
+    font-size: 50px;
+  }
+}
+
+.counter-value {
+  color: #c20a72;
+  font-weight: 900;
+}
+
+.description {
+  text-align: center;
+  color: #2d3a35;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 20px;
+  }
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #007bff;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  outline: none;
+  cursor: pointer;
+}

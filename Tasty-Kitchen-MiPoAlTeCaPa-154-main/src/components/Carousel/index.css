@@ -1,0 +1,13 @@
+.container {
+  padding: 40px;
+}
+.carousel-container {
+  margin-left: 55px;
+  width: 1140px;
+}
+
+.carousel-img {
+  width: 1140px;
+  height: 320px;
+  border-radius: 8px;
+}

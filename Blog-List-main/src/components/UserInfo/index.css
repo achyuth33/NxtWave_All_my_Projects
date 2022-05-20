@@ -1,0 +1,28 @@
+.user-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic {
+  background-color: #ffffff;
+  width: 100px;
+  margin-top: 31px;
+}
+
+.user-name {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 18px;
+  color: #12022f;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.user-designation {
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  color: #616e7c;
+}

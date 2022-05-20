@@ -1,0 +1,9 @@
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.homeMainDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}

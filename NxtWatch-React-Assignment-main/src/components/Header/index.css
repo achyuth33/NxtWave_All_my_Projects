@@ -1,0 +1,67 @@
+.headerMainDiv {
+  height: 10vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  width: 90vw;
+  list-style-type: none;
+  padding-left: 0px;
+}
+body {
+  margin: 0px;
+  margin-top: 0px;
+}
+.quantity-controller-icon1 {
+  color: #ffffff;
+}
+li {
+  list-style-type: none;
+}
+.img2 {
+  width: 100px;
+}
+.div1 {
+  display: flex;
+  width: 8vw;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.link {
+  color: white;
+  text-decoration: none;
+}
+.button1 {
+  background-color: transparent;
+  height: 34px;
+  width: 110px;
+  border-width: 0px;
+  border-radius: 8px;
+  color: blue;
+  font-weight: bold;
+  font-family: Roboto;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: blue;
+  cursor: pointer;
+}
+.div5 {
+  width: 25vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.button3 {
+  background-color: transparent;
+  border-width: 0px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.img6 {
+  width: 30px;
+}

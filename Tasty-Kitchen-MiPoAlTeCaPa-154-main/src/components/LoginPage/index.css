@@ -1,0 +1,154 @@
+.login-page-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  width: 100%;
+  height: 100vh;
+}
+.login-image {
+  height: 924px;
+  width: 605px;
+}
+.logo {
+  height: 39px;
+  width: 49px;
+  margin-top: 20px;
+}
+.login-card {
+  height: 523px;
+  width: 456px;
+  background: #fefeff;
+  box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 114px;
+  margin-left: 165px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.title {
+  height: 32px;
+  margin-top: 2px;
+  font-family: DM Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: #f7931e;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-name {
+  width: 80px;
+  height: 40px;
+  margin-top: 32px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height, or 125% */
+  display: flex;
+  align-items: center;
+  text-align: center; /* Light / blue-gray / 900 */
+
+  color: #0f172a;
+}
+.username-box {
+  width: 360px;
+  height: 64px;
+  margin-top: 54px;
+  display: flex;
+  flex-direction: column;
+}
+.password-box {
+  width: 360px;
+  height: 64px;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.username {
+  width: 66px;
+  height: 16px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  /* Light / blue-gray / 600 */
+  color: #475569;
+}
+.password {
+  width: 68px;
+  height: 16px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px; /* identical to box height, or 133% */
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  /* Light / blue-gray / 600 */
+  color: #475569;
+}
+
+.input-text {
+  margin-top: 8px;
+  height: 40px;
+  /* Light / blue-gray / 200 */
+  background: #e2e8f0;
+  border-radius: 2px;
+  outline: none;
+  border-width: 0px;
+}
+.input-password {
+  height: 40px;
+  margin-top: 8px;
+  /* Light / blue-gray / 200 */
+  background: #e2e8f0;
+  border-radius: 2px;
+  outline: none;
+  border-width: 0px;
+}
+.button {
+  height: 40px;
+  width: 360px;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #f7931e;
+  border-radius: 8px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  outline: none;
+  border-width: 0px;
+}
+.error-msg {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 12px;
+  align-self: flex-start;
+  /* Light / red / 500 */
+  color: #ef4444;
+}

@@ -1,0 +1,75 @@
+.destinations-search-app-container {
+  display: flex;
+  justify-content: center;
+}
+
+.destinations-search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 1140px;
+}
+
+@media screen and (min-width: 768px) {
+  .destinations-search-container {
+    align-items: flex-start;
+  }
+}
+
+.heading {
+  text-align: center;
+  color: #252627;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 48px;
+  margin-left: 15px;
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    margin-top: 96px;
+  }
+}
+
+.search-input-container {
+  display: flex;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  margin-left: 15px;
+}
+
+.search-input {
+  color: #0f172a;
+  background-color: #f1f5f9;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+}
+
+.search-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.destinations-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-top: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .destinations-list {
+    justify-content: flex-start;
+  }
+}

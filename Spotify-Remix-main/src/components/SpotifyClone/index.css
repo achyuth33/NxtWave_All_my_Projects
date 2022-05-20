@@ -1,0 +1,82 @@
+.main-container {
+  display: flex;
+  background-color: #393b40;
+  padding-top: 72px;
+}
+
+.side-nav-bar {
+  height: 100vh;
+  width: 20%;
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.editor-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.app-container {
+  width: 80%;
+}
+
+.bottom-group {
+  display: flex;
+  position: fixed;
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+  height: 50px;
+  width: 100%;
+  z-index: 10;
+  bottom: 0px;
+  padding-left: 10px;
+}
+
+.icons {
+  font-size: 24px;
+}
+
+.buttons-play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.volume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.slider {
+  width: 100%;
+}
+
+.top-bar {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #393b40;
+  color: white;
+  border: 1px solid white;
+}
+
+.search-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search-input {
+  width: 250px;
+  height: 25px;
+  margin-left: 20px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+}

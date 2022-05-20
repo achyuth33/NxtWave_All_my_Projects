@@ -1,0 +1,46 @@
+.button-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.cart-value {
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 24px;
+  width: 10px;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+}
+.minus-btn {
+  height: 18px;
+  width: 18px;
+  border-radius: 2.25px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 0.75px solid #475569;
+  box-sizing: border-box;
+}
+.plus-btn {
+  height: 18px;
+  width: 18px;
+  border-radius: 2.25px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 0.75px solid #475569;
+  box-sizing: border-box;
+
+  /* Inside Auto Layout */
+}

@@ -1,0 +1,42 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not-found-name {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height, or 150% */
+
+  /* Light / blue-gray / 800 */
+
+  color: #1e293b;
+}
+.not-suggest {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  /* or 160% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+}
+.not-home-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 24px;
+  background: #f7931e;
+  border-radius: 12px;
+
+  /* Inside Auto Layout */
+}

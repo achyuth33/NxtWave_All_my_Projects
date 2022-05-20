@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.container {
+    background-image: url("https://assets.ccbp.in/frontend/dynamic-webapps/book-search-bg.png");
+    height: 40vh;
+    text-align: center;
+}
+
+.heading {
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 20px;
+}
+
+.searchBar {
+    margin-top: 15px;
+    height: 40px;
+    border-radius: 6px;
+    width: 250px;
+}
+
+.drop {
+    height: 40px;
+    margin-top: 18px;
+    border-radius: 6px;
+    width: 250px;
+}
+
+.image {
+    height: 170px;
+    width: 100px;
+}

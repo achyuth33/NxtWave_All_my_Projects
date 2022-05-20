@@ -1,0 +1,65 @@
+.restaurant-details {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: center;
+}
+.res-image {
+  width: 160px;
+  height: 100px;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+.link-details {
+  text-decoration: none;
+}
+.rating-name-cuisine {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 30px;
+  justify-content: center;
+}
+.res-name {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 0px;
+  align-self: flex-start;
+  /* identical to box height, or 133% */
+  letter-spacing: 0.2px;
+  /* Light / blue-gray / 700 */
+  color: #334155;
+  width: 204px;
+}
+.cuisine-name {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #64748b;
+  margin-bottom: 0px;
+}
+.rating-cont {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  align-items: center;
+}
+.rating {
+  width: 22px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  /* Light / blue-gray / 800 */
+  color: #1e293b;
+}
+.star {
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+}

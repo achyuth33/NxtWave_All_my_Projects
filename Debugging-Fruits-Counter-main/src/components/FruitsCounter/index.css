@@ -1,0 +1,117 @@
+.fruits-counter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd569;
+  height: 100vh;
+}
+
+.fruits-counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 16px;
+  width: 90%;
+  padding: 24px;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .fruits-counter {
+    width: 80%;
+    padding-top: 96px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 96px;
+  }
+}
+
+.count-text {
+  text-align: center;
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .count-text {
+    font-size: 48px;
+  }
+}
+
+.count {
+  color: #ffd569;
+}
+
+.counters-control-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .counters-control-container {
+    flex-direction: row;
+  }
+}
+
+.counter-control {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .counter-control {
+    margin-top: 96px;
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+.fruit-image {
+  width: 200px;
+  height: 175px;
+}
+
+@media screen and (min-width: 992px) {
+  .fruit-image {
+    width: 296px;
+    height: 275px;
+  }
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .button-container {
+    margin-top: 48px;
+  }
+}
+
+.button {
+  color: #ffffff;
+  background-color: #007bff;
+  font-size: 12px;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,160 @@
+.latest-match-container {
+  margin-top: 24px;
+}
+
+.latest-match-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  display: block;
+}
+
+.latest-match-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a;
+  border-radius: 12px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-card {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
+
+.latest-match-details-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-details-logo-container {
+    width: 65%;
+    padding-left: 32px;
+    padding-right: 0px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .latest-match-details-logo-container {
+    width: 60%;
+  }
+}
+
+.latest-match-details-1 {
+  width: 70%;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-details-1 {
+    width: 48%;
+    align-self: flex-start;
+  }
+}
+
+.latest-match-team-name {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-team-name {
+    font-size: 36px;
+  }
+}
+
+.latest-match-date {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-date {
+    font-size: 24px;
+  }
+}
+
+.match-details {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-details {
+    font-size: 16px;
+  }
+}
+
+.latest-match-team-logo {
+  max-height: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-team-logo {
+    max-width: 200px;
+    max-height: 200px;
+  }
+}
+
+.separator {
+  border: 1px solid #475569;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .separator {
+    display: none;
+  }
+}
+
+.latest-match-details-2 {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-details-2 {
+    text-align: right;
+    width: 33%;
+    padding-left: 0px;
+    padding-right: 32px;
+  }
+}
+
+.latest-match-details-label {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-details-label {
+    font-size: 18px;
+  }
+}
+
+.latest-match-details-value {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-details-value {
+    font-size: 14px;
+  }
+}

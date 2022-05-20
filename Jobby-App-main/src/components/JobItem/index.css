@@ -1,0 +1,102 @@
+.job-item-container {
+  list-style: none;
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+.img-title-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.title-rating-container {
+  margin-top: 0;
+}
+
+.company-logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.title-heading {
+  color: #ffffff;
+  margin-top: 0;
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+
+.star-rating-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+}
+
+.star-icon {
+  color: #fbbf24;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.rating-text {
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 0;
+  margin-left: 5px;
+}
+
+.location-package-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.location-job-type-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.location-icon-location-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.location-icon {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.location {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.job-type {
+  margin-top: 0;
+}
+
+.package {
+  margin-top: 0;
+}
+
+.link-item {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .job-item-container {
+    width: 100%;
+  }
+
+  .title-heading {
+    font-size: 25px;
+  }
+}
